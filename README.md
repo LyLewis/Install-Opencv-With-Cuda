@@ -12,7 +12,7 @@ cd opencv
 git clone https://github.com/opencv/opencv_contrib.git  #let contrib inside opencv floder
 mkdir build && cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
-	-D CMAKE_INSTALL_PREFIX=/usr/ \
+	-D CMAKE_INSTALL_PREFIX=/usr/local/ \
 	-D INSTALL_C_EXAMPLES=OFF \
 	-D OPENCV_ENABLE_NONFREE=ON \
 	-D WITH_CUDA=ON \
